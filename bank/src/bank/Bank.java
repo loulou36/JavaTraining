@@ -1,5 +1,5 @@
 package bank;
-import Customer.*;
+import customer.*;
 
 public class Bank {
 public static void main(String[] args) {
