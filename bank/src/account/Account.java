@@ -9,8 +9,11 @@ public class Account {
 	private double balance;
 	private float yieldYearly;
 	private Bank bank;
+	
 	public void openAccount() {
 		//create new account
+		
+		
 	}
 	public void closeAccount() {
 		//close account
@@ -31,6 +34,11 @@ public class Account {
 	public void withdrawal(double sumWithdrawal) {
 		this.balance+=sumWithdrawal;
 	}
+	public double getBalance() {
+		return this.balance;
+	}
 	
+	
+
 	
 }

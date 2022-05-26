@@ -1,13 +1,25 @@
 package bank;
-import account.Account;
+import account.*;
 import customer.*;
 
 public class Bank {
-	Account bankAllAccounts[]; 
-public static void main(String[] args) {
-	System.out.println("this is the main bank class");
-	//create new customer 
-	Customer customer1 = new Customer();
+	Account bankAllAccounts[]= null; 
+
 	
+public Bank() {
+	this.bankAllAccounts=null;
 }
+
+public long sumAllBalances() {
+	long sum=0;
+	for (int i=0;i<bankAllAccounts.length;i++)
+	{
+		sum = (long) (sum + bankAllAccounts[i].getBalance());
+	}
+	return sum;
+	
+	
+} 
+
+
 }
