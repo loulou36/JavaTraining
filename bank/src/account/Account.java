@@ -2,7 +2,7 @@ package account;
 
 import bank.Bank;
 
-public class account {
+public class Account {
 	private String accNbr;
 	private String remarks;
 	private String accType;

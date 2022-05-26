@@ -1,13 +1,21 @@
 package customer;
 
-public class Customer {
-	int id;
+import bank.Bank;
+import account.*;
 
-	public Customer(int id) {
-		super();
-		this.id = id;
-	}
+public class Customer {
+	private String customerID;
+	private String name;
+	private String surname;
+	private String address;
+	private String customerRemarks;
+	private String customerProfile;
+	private Account[] Account;
 	
+	
+	public void Customer() {
+		
+	}
 	
 
 }
